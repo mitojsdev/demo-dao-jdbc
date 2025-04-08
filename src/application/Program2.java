@@ -28,12 +28,12 @@ public static void main(String[] args) {
 			System.out.println(obj);
 		}
 		
-		/*System.out.println("\n=== TESTE 4: seller Insert ===");
-		Seller newSeller = new Seller(null,"Greg", "greg@gmail.com", new Date(),4000.0, department);
-		sellerDao.insert(newSeller);
-		System.out.println("Done! New Id = " + newSeller.getId());
+		System.out.println("\n=== TESTE 3: department Insert ===");
+		Department newDepartment = new Department(null,"Music");
+		departmentDao.insert(newDepartment);
+		System.out.println("Done! New Id = " + newDepartment.getId());
 		
-		System.out.println("\n=== TESTE 5: seller Update ===");
+		/*System.out.println("\n=== TESTE 5: seller Update ===");
 		seller = sellerDao.findById(1);
 		seller.setName("Marta Whaine");
 		sellerDao.update(seller);
