@@ -28,18 +28,18 @@ public static void main(String[] args) {
 			System.out.println(obj);
 		}
 		
-		System.out.println("\n=== TESTE 3: department Insert ===");
+		/*System.out.println("\n=== TESTE 3: department Insert ===");
 		Department newDepartment = new Department(null,"Music");
 		departmentDao.insert(newDepartment);
-		System.out.println("Done! New Id = " + newDepartment.getId());
+		System.out.println("Done! New Id = " + newDepartment.getId());*/
 		
-		/*System.out.println("\n=== TESTE 5: seller Update ===");
-		seller = sellerDao.findById(1);
-		seller.setName("Marta Whaine");
-		sellerDao.update(seller);
+		System.out.println("\n=== TESTE 4: department Update ===");
+		department = departmentDao.findById(6);
+		department.setName("D3");
+		departmentDao.update(department);
 		System.out.println("Update Complete");
 		
-		System.out.println("\n=== TESTE 6: seller Delete ===");
+		/*System.out.println("\n=== TESTE 6: seller Delete ===");
 		System.out.print("Entre com o ID para deleção: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
